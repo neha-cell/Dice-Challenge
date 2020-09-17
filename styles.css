@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -17,20 +17,18 @@
   text-align: center;
 
 }
-.container-fluid {
 
-
-}
 body {
   background-color: #393E46;
 }
 
 h1 {
-  margin: 30px;
+  margin: 70px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 7rem;
+  font-size: 5rem;
   color: #4ECCA3;
+  font-weight: bold;
 }
 
 p {
@@ -48,5 +46,15 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+@media (max-width:990px) {
+  h1 {
+  text-align: left;
+    font-size: 3rem;
+    margin:5% 30% 5%;
+    width: 100%;
+  }
+
 
 }
